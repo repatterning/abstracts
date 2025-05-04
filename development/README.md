@@ -72,6 +72,28 @@ Extra:
 * [aws-actions/amazon-ecr-login](https://github.com/aws-actions/amazon-ecr-login/releases)
 
 <br>
+
+### DASK & Amazon EMR (Elastic MapReduce)
+
+In brief:
+* [GPU](https://docs.dask.org/en/stable/gpu.html)
+* [Deploying on Amazon EMR](https://yarn.dask.org/en/latest/aws-emr.html)
+  * [A bootstrap for EMR](https://github.com/dask/dask-yarn/blob/main/deployment_resources/aws-emr/bootstrap-dask)
+  * [Create bootstrap actions to install additional software with an Amazon EMR cluster](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-plan-bootstrap.html)
+  * [step](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-spark-submit-step.html)
+
+Packaging for deployment:
+* [venv-pack2](https://pypi.org/project/venv-pack2/)
+* venv-pack &rarr; [venv-pack](https://pypi.org/project/venv-pack/), [documentation](https://jcristharif.com/venv-pack/)
+* docker & virtual environments &rarr; [docker & venv](https://coderivers.org/blog/docker-with-python-venv/), [Activate python virtualenv in Dockerfile](https://bobcares.com/blog/activate-python-virtualenv-in-dockerfile/)
+
+Beware of Python versions:
+* [Amazon EMR Release Guide](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-780-release.html)
+
+
+
+
+<br>
 <br>
 
 <br>
