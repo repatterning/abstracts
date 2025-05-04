@@ -78,6 +78,7 @@ Extra:
 In brief:
 * [GPU](https://docs.dask.org/en/stable/gpu.html)
 * [Deploying on Amazon EMR](https://yarn.dask.org/en/latest/aws-emr.html)
+  * [Quick Start: dask-yarn](https://yarn.dask.org/en/latest/quickstart.html)
   * [A bootstrap for EMR](https://github.com/dask/dask-yarn/blob/main/deployment_resources/aws-emr/bootstrap-dask)
   * [Create bootstrap actions to install additional software with an Amazon EMR cluster](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-plan-bootstrap.html)
   * [step](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-spark-submit-step.html)
