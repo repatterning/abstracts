@@ -104,6 +104,7 @@ For Cloud Formation:
 * [Intrinsic Functions](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-join.html)
 
 <br>
+<br>
 
 ### RAPIDS & Spark & EMR
 
@@ -119,6 +120,7 @@ For Cloud Formation:
 * [Getting Started: Amazon EMR, Python, Spark](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-gs.html#emr-getting-started-plan-and-configure)
 
 <br>
+<br>
 
 ### Amazon & GPU Tasks
 
@@ -131,9 +133,15 @@ For Cloud Formation:
 * [Amazon ECS increases the CPU limit for ECS tasks to 192 vCPUs](https://aws.amazon.com/about-aws/whats-new/2025/02/amazon-ecs-increases-cpu-ecs-tasks/)
 * [Container Definitions](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definition_parameters.html#container_definitions)<br>Environment: cpu &rarr; <blockquote>The total amount of CPU reserved for all the containers that are within a task must be lower than the task-level cpu value.</blockquote>
 
+<br>
+
+BATCH
 * [BATCH: Use a GPU workload AMI](https://docs.aws.amazon.com/batch/latest/userguide/batch-gpu-ami.html)
 * [Run AWS Batch workloads with Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/connect-batch.html)
 
+<br>
+
+TEMPLATES
 * [Create launch templates](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/quickref-ec2-launch-templates.html)
 * [awscli ec2](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/index.html#cli-aws-ec2)
 
