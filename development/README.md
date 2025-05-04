@@ -2,7 +2,6 @@
 
 <b>Notes</b>
 
-
 ## References
 
 ### SEPA, etc.
@@ -48,12 +47,16 @@ Extra:
 * [statsmodels.graphics.tsaplots.plot_pacf](https://www.statsmodels.org/dev/generated/statsmodels.graphics.tsaplots.plot_pacf.html)
 * [python: hub.docker.com](https://hub.docker.com/_/python/)
 
+
 <br>
+<br>
+
 
 ### Linux Distributions
 
 * [ubuntu man pages](https://manpages.ubuntu.com/manpages/trusty/man1/)
 
+<br>
 <br>
 
 ### Time
@@ -62,7 +65,10 @@ Extra:
 * [UNIX Time Converters](https://time.is/Unix_time_converter)
 * [Time Durations](https://en.wikipedia.org/wiki/ISO_8601#Durations)
 
+
 <br>
+<br>
+
 
 ### Actions
 
@@ -72,15 +78,20 @@ Core
 * [aws-actions/configure-aws-credentials](https://github.com/aws-actions/configure-aws-credentials/releases)
 * [aws-actions/amazon-ecr-login](https://github.com/aws-actions/amazon-ecr-login/releases)
 
+<br>
+
 Extra
 * [Dockerfile](https://docs.docker.com/reference/dockerfile/)
 * [requirements.txt](https://pip.pypa.io/en/stable/reference/requirements-file-format/)
 
 <br>
+<br>
 
 ### DASK & Amazon EMR (Elastic MapReduce)
 
 [EMR Pricing](https://aws.amazon.com/emr/pricing/)
+
+<br>
 
 In brief:
 * [GPU](https://docs.dask.org/en/stable/gpu.html)
@@ -92,13 +103,19 @@ In brief:
   * [Configure Docker for use with Amazon EMR clusters](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-plan-docker.html)
   * [EMR & Custom Images](https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/docker-custom-images-steps.html)
 
+<br>
+
 Packaging for deployment:
 * [venv-pack2](https://pypi.org/project/venv-pack2/)
 * venv-pack &rarr; [venv-pack](https://pypi.org/project/venv-pack/), [documentation](https://jcristharif.com/venv-pack/)
 * docker & virtual environments &rarr; [docker & venv](https://coderivers.org/blog/docker-with-python-venv/), [Activate python virtualenv in Dockerfile](https://bobcares.com/blog/activate-python-virtualenv-in-dockerfile/)
 
+<br>
+
 Beware of Python versions:
 * [Amazon EMR Release Guide](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-780-release.html)
+
+<br>
 
 For Cloud Formation:
 * [Intrinsic Functions](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-join.html)
