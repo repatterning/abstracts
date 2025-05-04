@@ -18,6 +18,7 @@ Scottish Environment Protection Agency (SEPA):
 * [Access Control](https://timeseriesdoc.sepa.org.uk/api-documentation/before-you-start/what-controls-there-are-on-access/)
 * [Quality Codes](https://timeseriesdoc.sepa.org.uk/api-documentation/before-you-start/how-data-validity-may-change/)
 * [Gauge Height](https://waterdata.usgs.gov/blog/gage_height/)
+  * [The Reference Point](https://www.usgs.gov/media/images/gage-datum-reference-point)
 
 <br>
 
