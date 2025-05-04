@@ -66,14 +66,21 @@ Extra:
 
 ### Actions
 
+Core
 * [docker/login-action](https://github.com/docker/login-action/releases)
 * [docker/metadata-action](https://github.com/docker/metadata-action/releases)
 * [aws-actions/configure-aws-credentials](https://github.com/aws-actions/configure-aws-credentials/releases)
 * [aws-actions/amazon-ecr-login](https://github.com/aws-actions/amazon-ecr-login/releases)
 
+Extra
+* [Dockerfile](https://docs.docker.com/reference/dockerfile/)
+* [requirements.txt](https://pip.pypa.io/en/stable/reference/requirements-file-format/)
+
 <br>
 
 ### DASK & Amazon EMR (Elastic MapReduce)
+
+[EMR Pricing](https://aws.amazon.com/emr/pricing/)
 
 In brief:
 * [GPU](https://docs.dask.org/en/stable/gpu.html)
@@ -82,6 +89,8 @@ In brief:
   * [A bootstrap for EMR](https://github.com/dask/dask-yarn/blob/main/deployment_resources/aws-emr/bootstrap-dask)
   * [Create bootstrap actions to install additional software with an Amazon EMR cluster](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-plan-bootstrap.html)
   * [step](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-spark-submit-step.html)
+  * [Configure Docker for use with Amazon EMR clusters](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-plan-docker.html)
+  * [EMR & Custom Images](https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/docker-custom-images-steps.html)
 
 Packaging for deployment:
 * [venv-pack2](https://pypi.org/project/venv-pack2/)
@@ -91,8 +100,27 @@ Packaging for deployment:
 Beware of Python versions:
 * [Amazon EMR Release Guide](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-780-release.html)
 
+<br>
 
+### RAPIDS & Spark & EMR
 
+* [Use the Nvidia RAPIDS Accelerator for Apache Spark](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-spark-rapids.html)
+* [RAPIDS Accelerator for Apache Spark Deployment Guide](https://docs.nvidia.com/ai-enterprise/deployment/spark-rapids-accelerator/latest/emr.html)
+* [NVIDIA AI Enterprise with RAPIDS Accelerator Deployment Guide](https://docs.nvidia.com/ai-enterprise/deployment/spark-rapids-accelerator/latest/index.html)
+* [rapids.ai & Amazon EMR](https://docs.nvidia.com/ai-enterprise/deployment/spark-rapids-accelerator/latest/emr.html)
+* [rapids.ai, EMR, EKS](https://aws.amazon.com/blogs/containers/run-spark-rapids-ml-workloads-with-gpus-on-amazon-emr-on-eks/)
+* [Quickstart](https://docs.nvidia.com/spark-rapids/user-guide/latest/qualification/quickstart.html)
+* Images: **a.** [rapids.ai & EMR](https://gallery.ecr.aws/emr-on-eks/spark/emr-7.0.0-spark-rapids), **b.** [EMR](https://gallery.ecr.aws/emr-on-eks?page=1)
+* [Amazon EMR & Dockerfile](https://github.com/awslabs/data-on-eks/blob/main/ai-ml/emr-spark-rapids/examples/xgboost/Dockerfile)
+* [cutting cost](https://developer.nvidia.com/blog/accelerated-data-analytics-faster-time-series-analysis-with-rapids-cudf/)
+* [Getting Started: Amazon EMR, Python, Spark](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-gs.html#emr-getting-started-plan-and-configure)
+
+<br>
+
+### Amazon & GPU Tasks
+* [Amazon ECS task definitions for GPU workloads](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-gpu.html)
+* [Run Amazon ECS or Fargate tasks with Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/connect-ecs.html)
+* [BATCH: Use a GPU workload AMI](https://docs.aws.amazon.com/batch/latest/userguide/batch-gpu-ami.html)
 
 <br>
 <br>
