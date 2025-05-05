@@ -156,6 +156,7 @@ BATCH
 * [BATCH: Use a GPU workload AMI](https://docs.aws.amazon.com/batch/latest/userguide/batch-gpu-ami.html)
 * [Run AWS Batch workloads with Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/connect-batch.html)
 * [EC2 Orchestration](https://docs.aws.amazon.com/batch/latest/userguide/getting-started-ec2.html)
+* [Batch job stuck in RUNNABLE status](https://repost.aws/knowledge-center/batch-job-stuck-runnable-status)
 
 <br>
 
