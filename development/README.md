@@ -141,6 +141,7 @@ For Cloud Formation:
 
 ### Amazon & GPU Tasks
 
+* [Release Notes: Deep Learning Amazon Machine Image](https://docs.aws.amazon.com/dlami/latest/devguide/appendix-ami-release-notes.html)
 * [Specialized Configurations with Docker](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/docker-specialized.html)
 * [Amazon ECS task definitions for GPU workloads](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-gpu.html)
 * [Run Amazon ECS or Fargate tasks with Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/connect-ecs.html)
@@ -158,6 +159,8 @@ BATCH
 * [Run AWS Batch workloads with Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/connect-batch.html)
 * [Getting started with Amazon EC2 orchestration](https://docs.aws.amazon.com/batch/latest/userguide/getting-started-ec2.html)
   * [Example: chaos gears](https://chaosgears.com/blog/gpu-jobs-on-aws-batch)
+  * [retry strategy](https://docs.aws.amazon.com/batch/latest/userguide/job_retries.html)
+  * [retry strategy: evaluate on exit](https://docs.aws.amazon.com/batch/latest/userguide/job_definition_parameters-copy.html#retryStrategy-evaluateOnExit)
 * [Jobs stuck in a RUNNABLE status](https://docs.aws.amazon.com/batch/latest/userguide/job_stuck_in_runnable.html)
 * [Batch job stuck in RUNNABLE status](https://repost.aws/knowledge-center/batch-job-stuck-runnable-status)
 
