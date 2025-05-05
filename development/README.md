@@ -141,6 +141,7 @@ For Cloud Formation:
 
 ### Amazon & GPU Tasks
 
+* [Specialized Configurations with Docker](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/docker-specialized.html)
 * [Amazon ECS task definitions for GPU workloads](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-gpu.html)
 * [Run Amazon ECS or Fargate tasks with Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/connect-ecs.html)
 * [Amazon ECS task definitions for GPU workloads: Instances List](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-gpu.html)
@@ -155,7 +156,8 @@ For Cloud Formation:
 BATCH
 * [BATCH: Use a GPU workload AMI](https://docs.aws.amazon.com/batch/latest/userguide/batch-gpu-ami.html)
 * [Run AWS Batch workloads with Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/connect-batch.html)
-* [EC2 Orchestration](https://docs.aws.amazon.com/batch/latest/userguide/getting-started-ec2.html)
+* [Getting started with Amazon EC2 orchestration](https://docs.aws.amazon.com/batch/latest/userguide/getting-started-ec2.html)
+* [Jobs stuck in a RUNNABLE status](https://docs.aws.amazon.com/batch/latest/userguide/job_stuck_in_runnable.html)
 * [Batch job stuck in RUNNABLE status](https://repost.aws/knowledge-center/batch-job-stuck-runnable-status)
 
 <br>
