@@ -1,6 +1,14 @@
 <br>
 
+## Project Notes
 
+Weather Warnings
+* [Warnings](https://weather.metoffice.gov.uk/guides/warnings)
+* [RSS feeds from the Met Office](https://weather.metoffice.gov.uk/guides/rss)
+
+<br>
+<br>
+<br>
 
 ## Development
 
@@ -18,6 +26,7 @@
 * [MIME Types](https://www.slingacademy.com/article/nginx-mime-types-the-complete-guide/)
 * [load error example](https://www.slingacademy.com/article/nginx-error-cannot-load-css-js-files/)
 
+<br>
 
 ### live server
 
@@ -25,6 +34,7 @@
 * [github](https://github.com/tapio/live-server)
 * [npm](https://www.npmjs.com/package/live-server)
 
+<br>
 
 ### vim & vi
 
@@ -32,8 +42,26 @@
 * [vim](https://vim.rtorr.com)
 * [vim](https://www.redhat.com/en/blog/beginners-guide-vim)
 
+<br>
 
+### JavaScript Modules
 
+* [Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+* [Modules](https://javascript.info/modules)
+* [Module Errors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/import_decl_module_top_level#importing_in_a_non-module_script)
+* [SCRIPT](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
+
+<br>
+
+### JavaScript
+
+* [fetch](https://javascript.info/fetch)
+* [1](https://wpdean.com/css-dropdown-menus/), [2](https://jsfiddle.net/cL2x7/), [3](https://www.geeksforgeeks.org/how-to-creating-html-list-from-javascript-array/)
+* High Charts
+  * [data grouping](https://www.highcharts.com/docs/stock/data-grouping)
+  * [the date formats](https://api.highcharts.com/class-reference/Highcharts.Time#dateFormat)
+
+  
 <br>
 <br>
 <br>
@@ -106,7 +134,7 @@ Extra:
 <br>
 
 
-### Actions
+### GitHub Actions
 
 Core
 * [docker/login-action](https://github.com/docker/login-action/releases)
@@ -119,6 +147,7 @@ Core
 Extra
 * [Dockerfile](https://docs.docker.com/reference/dockerfile/)
 * [requirements.txt](https://pip.pypa.io/en/stable/reference/requirements-file-format/)
+* [docker run](https://docs.docker.com/reference/cli/docker/container/run/)
 
 <br>
 <br>
