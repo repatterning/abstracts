@@ -113,14 +113,13 @@ Extra:
 
 
 <br>
-<br>
 
 
 ### Linux Distributions
 
 * [ubuntu man pages](https://manpages.ubuntu.com/manpages/trusty/man1/)
 
-<br>
+
 <br>
 
 ### Time
@@ -131,8 +130,6 @@ Extra:
 
 
 <br>
-<br>
-
 
 ### GitHub Actions
 
@@ -149,7 +146,7 @@ Extra
 * [requirements.txt](https://pip.pypa.io/en/stable/reference/requirements-file-format/)
 * [docker run](https://docs.docker.com/reference/cli/docker/container/run/)
 
-<br>
+
 <br>
 
 ### DASK & Amazon EMR (Elastic MapReduce)
@@ -186,7 +183,6 @@ For Cloud Formation:
 * [Intrinsic Functions](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-join.html)
 
 <br>
-<br>
 
 ### RAPIDS & Spark & EMR
 
@@ -201,7 +197,7 @@ For Cloud Formation:
 * [cutting cost](https://developer.nvidia.com/blog/accelerated-data-analytics-faster-time-series-analysis-with-rapids-cudf/)
 * [Getting Started: Amazon EMR, Python, Spark](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-gs.html#emr-getting-started-plan-and-configure)
 
-<br>
+
 <br>
 
 ### Amazon & GPU Tasks
