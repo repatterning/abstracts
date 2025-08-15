@@ -49,45 +49,32 @@ and
 ## Programming, Development
 
 <table style="width: 85%; margin-left: 35px; vertical-align: top; font-size: .7rem;">
-    <colgroup>
-        <col span="1" style="width: 18.5%;">
-        <col span="1" style="width: 43.5%;">
-    </colgroup>
-    <thead><tr style="text-align: left"><th>&nbsp;</th><th>Notes</th></tr></thead>
-    <tr><td>linux</td><td>[ubuntu man pages](https://manpages.ubuntu.com/manpages/trusty/man1/)</td></tr>
-    <tr>
-      <td>GitHub Actions</td>
-      <td>Core<ul>
-        <li><a href="https://github.com/docker/login-action/releases" target="_blank">docker/login-action</a></li>
-        <li><a href="https://github.com/docker/metadata-action/releases" target="_blank">docker/metadata-action</a></li>
-        <li><a href="https://github.com/aws-actions/configure-aws-credentials/releases" target="_blank">aws-actions/configure-aws-credentials</a></li>
-        <li><a href="https://github.com/aws-actions/amazon-ecr-login/releases" target="_blank">aws-actions/amazon-ecr-login</a></li></ul>
-        Extra<ul>
-          <li><a href="https://docs.docker.com/reference/dockerfile/" target="_blank">Dockerfile</a></li>
-          <li><a href="https://pip.pypa.io/en/stable/reference/requirements-file-format/" target="_blank">requirements.txt</a></li>
-          <li><a href="https://docs.docker.com/reference/cli/docker/container/run/" target="_blank">docker run</a></li></ul>
-      </td>
-    </tr>
-    <tr><td>raw data source</td><td><a href="https://timeseriesdoc.sepa.org.uk" target="_blank">SEPA API</a> (Scottish Environment Protection Agency Application Programming Interface)</td></tr>
+  <colgroup>
+      <col span="1" style="width: 18.5%;">
+      <col span="1" style="width: 43.5%;">
+  </colgroup>
+  <thead><tr style="text-align: left"><th>&nbsp;</th><th>Notes</th></tr></thead>
+  <tr><td>linux</td><td>[ubuntu man pages](https://manpages.ubuntu.com/manpages/trusty/man1/)</td></tr>
+  <tr>
+    <td>GitHub Actions</td>
+    <td>Core<ul>
+      <li><a href="https://github.com/docker/login-action/releases" target="_blank">docker/login-action</a></li>
+      <li><a href="https://github.com/docker/metadata-action/releases" target="_blank">docker/metadata-action</a></li>
+      <li><a href="https://github.com/aws-actions/configure-aws-credentials/releases" target="_blank">aws-actions/configure-aws-credentials</a></li>
+      <li><a href="https://github.com/aws-actions/amazon-ecr-login/releases" target="_blank">aws-actions/amazon-ecr-login</a></li></ul>
+      Extra<ul>
+        <li><a href="https://docs.docker.com/reference/dockerfile/" target="_blank">Dockerfile</a></li>
+        <li><a href="https://pip.pypa.io/en/stable/reference/requirements-file-format/" target="_blank">requirements.txt</a></li>
+        <li><a href="https://docs.docker.com/reference/cli/docker/container/run/" target="_blank">docker run</a></li></ul>
+    </td>
+  </tr>
+  <tr><td>NGINX Servers</td>
+      <td><a href="https://hub.docker.com/_/nginx" target="_blank">nginx: docker hub</a>, <a href="https://toxigon.com/setting-up-nginx-with-docker" target="_blank">setting-up docker nginx</a>, <a href="https://www.uptimia.com/questions/how-to-run-nginx-in-the-foreground-within-a-docker-container#implementing-the-solution-in-docker" target="_blank">docker nginx</a>, <a href="https://itnext.io/dockerizing-modern-web-apps-cd9667eebf44" target="_blank">extra help</a>, <a href="https://www.socketxp.com/iot/remote-access-nginx-web-server-from-internet/" target="_blank">more</a>, <a href="https://www.thecoderscamp.com/nginx-g-daemon-off/" target="_blank">nginx -g 'daemon off;'</a>, <a href="https://github.com/devasthali-os/nginx-base/blob/master/Dockerfile" target="_blank">Dockerfile</a>, <a href="https://nginx.org/en/docs/beginners_guide.html#conf_structure" target="_blank">conf</a>, <a href="https://server.hk/blog/14461/" target="_blank">MIME (Multipurpose Internet Mail Extensions) Types</a>, <a href="https://www.slingacademy.com/article/nginx-mime-types-the-complete-guide/" target="_blank">MIME Types</a>, <a href="https://www.slingacademy.com/article/nginx-error-cannot-load-css-js-files/">load error example</a></td>
+  </tr>
 </table>
 
 <br>
 
-### NGINX Servers
-
-* [docker hub](https://hub.docker.com/_/nginx)
-* [docker nginx](https://toxigon.com/setting-up-nginx-with-docker)
-* [docker nginx](https://www.uptimia.com/questions/how-to-run-nginx-in-the-foreground-within-a-docker-container#implementing-the-solution-in-docker)
-* [extra help](https://itnext.io/dockerizing-modern-web-apps-cd9667eebf44)
-* [more](https://www.socketxp.com/iot/remote-access-nginx-web-server-from-internet/)
-* [nginx -g 'daemon off;'](https://www.thecoderscamp.com/nginx-g-daemon-off/)
-* [Dockerfile](https://github.com/devasthali-os/nginx-base/blob/master/Dockerfile)
-* [conf](https://nginx.org/en/docs/beginners_guide.html#conf_structure)
-* [MIME (Multipurpose Internet Mail Extensions) Types](https://server.hk/blog/14461/)
-* [MIME Types](https://www.slingacademy.com/article/nginx-mime-types-the-complete-guide/)
-* [load error example](https://www.slingacademy.com/article/nginx-error-cannot-load-css-js-files/)
-
-<br>
 
 ### live server
 
