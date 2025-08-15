@@ -61,16 +61,15 @@ and
         <li><a href="https://github.com/docker/login-action/releases" target="_blank">docker/login-action</a></li>
         <li><a href="https://github.com/docker/metadata-action/releases" target="_blank">docker/metadata-action</a></li>
         <li><a href="https://github.com/aws-actions/configure-aws-credentials/releases" target="_blank">aws-actions/configure-aws-credentials</a></li>
-        <li><a href="https://github.com/aws-actions/amazon-ecr-login/releases" target="_blank">aws-actions/amazon-ecr-login</a></li></ul></td>
+        <li><a href="https://github.com/aws-actions/amazon-ecr-login/releases" target="_blank">aws-actions/amazon-ecr-login</a></li></ul>
+        Extra<ul>
+          <li><a href="https://docs.docker.com/reference/dockerfile/" target="_blank">Dockerfile</a></li>
+          <li><a href="https://pip.pypa.io/en/stable/reference/requirements-file-format/" target="_blank">requirements.txt</a></li>
+          <li><a href="https://docs.docker.com/reference/cli/docker/container/run/" target="_blank">docker run</a></li></ul>
+      </td>
     </tr>
     <tr><td>raw data source</td><td><a href="https://timeseriesdoc.sepa.org.uk" target="_blank">SEPA API</a> (Scottish Environment Protection Agency Application Programming Interface)</td></tr>
 </table>
-
-
-Extra
-* [Dockerfile](https://docs.docker.com/reference/dockerfile/)
-* [requirements.txt](https://pip.pypa.io/en/stable/reference/requirements-file-format/)
-* [docker run](https://docs.docker.com/reference/cli/docker/container/run/)
 
 <br>
 
