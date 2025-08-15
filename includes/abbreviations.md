@@ -14,3 +14,4 @@
 *[SEPA]: Scottish Environment Protection Agency
 *[NSWWS]: National Severe Weather Warnings Service
 *[RSS]: Really Simple Syndication
+*[cefas]: Centre for Environment Fisheries and Aquaculture Science
