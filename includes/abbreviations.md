@@ -11,3 +11,4 @@
 *[MTTR]: Mean Time To Repair
 *[MTTD]: Mean Time To Detection
 *[AI]: Artificial Intelligence
+*[SEPA]: Scottish Environment Protection Agency
