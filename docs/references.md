@@ -79,18 +79,8 @@ and
         <li>highcharts: <a href="https://api.highcharts.com/class-reference/Highcharts.Time#dateFormat">the date formats of highcharts</a>, <a href="https://www.highcharts.com/docs/stock/data-grouping">data grouping</a></li>
         <li>dropdowns & lists: <a href="https://wpdean.com/css-dropdown-menus/">1</a>, <a href="https://jsfiddle.net/cL2x7/">2</a>, <a href="https://www.geeksforgeeks.org/how-to-creating-html-list-from-javascript-array/">3</a></li>
       </ul></td></tr>
+  <tr><td>JavaScript Modules</td><td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules" target="_blank">modules</a>, <a href="https://javascript.info/modules" target="_blank">modules</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/import_decl_module_top_level#importing_in_a_non-module_script" target="_blank">module errors</a></td></tr>
 </table>
-
-<br>
-
-
-### JavaScript Modules
-
-* [Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
-* [Modules](https://javascript.info/modules)
-* [Module Errors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/import_decl_module_top_level#importing_in_a_non-module_script)
-* [SCRIPT](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
-
 
 <br>
 <br>
