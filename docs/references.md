@@ -1,6 +1,19 @@
 # References
 
-Focusing on SEPA, time series modelling & analysis, <a href="https://aws.amazon.com/what-is/compute" target="_blank">compute</a>, etc.
+Focusing on time series modelling & analysis, <a href="https://aws.amazon.com/what-is/compute" target="_blank">compute</a>, etc.
+
+## Weather Warning Briefs
+
+* [Warnings](https://weather.metoffice.gov.uk/guides/warnings)
+* [RSS feeds from the Met Office](https://weather.metoffice.gov.uk/guides/rss)
+* [email alerts](https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/subscribe-to-email-alerts)
+* [National Severe Weather Warnings Service Public API](https://metoffice.github.io/nswws-public-api)
+
+and
+
+* [Materials & RSS](https://squidfunk.github.io/mkdocs-material/setup/setting-up-a-blog/#rss)
+
+<br>
 
 ## Time Series Modelling & Analysis
 
@@ -19,11 +32,38 @@ Focusing on SEPA, time series modelling & analysis, <a href="https://aws.amazon.
 * [Statistical forecasting: notes on regression and time series analysis](https://people.duke.edu/~rnau/411home.htm)
   * [Identifying the order of differencing in an ARIMA model](https://people.duke.edu/~rnau/411arim2.htm)
   * [Identifying the numbers of AR or MA terms in an ARIMA model](https://people.duke.edu/~rnau/411arim3.htm)
+* [Natural Logarithm Transformations](https://www.bridgetext.com/log-transforming-time-series-data-in-r)
 
 <br>
+
+## Time & Formatting
+
+* [Epoch Time](https://unixtime.org)
+* [UNIX Time Converters](https://time.is/Unix_time_converter)
+* [Time Durations](https://en.wikipedia.org/wiki/ISO_8601#Durations)
+* [Time Formatting Codes](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes)
+
+
 <br>
 
 ## Development Environments
+
+[ubuntu man pages](https://manpages.ubuntu.com/manpages/trusty/man1/)
+
+### GitHub Actions
+
+Core
+* [docker/login-action](https://github.com/docker/login-action/releases)
+* [docker/metadata-action](https://github.com/docker/metadata-action/releases)
+* [aws-actions/configure-aws-credentials](https://github.com/aws-actions/configure-aws-credentials/releases)
+* [aws-actions/amazon-ecr-login](https://github.com/aws-actions/amazon-ecr-login/releases)
+
+Extra
+* [Dockerfile](https://docs.docker.com/reference/dockerfile/)
+* [requirements.txt](https://pip.pypa.io/en/stable/reference/requirements-file-format/)
+* [docker run](https://docs.docker.com/reference/cli/docker/container/run/)
+
+<br>
 
 ### NGINX Servers
 
