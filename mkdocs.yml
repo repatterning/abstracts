@@ -107,3 +107,8 @@ nav:
   - Preliminaries:
       - preliminaries-critical.md
       - preliminaries-assets.md
+  - Analytics & Models:
+      - mathematics/index.md
+      - mathematics/data.md
+      - mathematics/drift.md
+  - References: references.md
