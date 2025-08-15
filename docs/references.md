@@ -46,18 +46,26 @@ and
 
 <br>
 
-## Development Environments
+## Programming, Development
 
-[ubuntu man pages](https://manpages.ubuntu.com/manpages/trusty/man1/)
+<table style="width: 85%; margin-left: 35px; vertical-align: top; font-size: .7rem;">
+    <colgroup>
+        <col span="1" style="width: 18.5%;">
+        <col span="1" style="width: 43.5%;">
+    </colgroup>
+    <thead><tr style="text-align: left"><th>&nbsp;</th><th>Notes</th></tr></thead>
+    <tr><td>linux</td><td>[ubuntu man pages](https://manpages.ubuntu.com/manpages/trusty/man1/)</td></tr>
+    <tr>
+      <td>GitHub Actions</td>
+      <td>Core<ul>
+        <li><a href="https://github.com/docker/login-action/releases" target="_blank">docker/login-action</a></li>
+        <li><a href="https://github.com/docker/metadata-action/releases" target="_blank">docker/metadata-action</a></li>
+        <li><a href="https://github.com/aws-actions/configure-aws-credentials/releases" target="_blank">aws-actions/configure-aws-credentials</a></li>
+        <li><a href="https://github.com/aws-actions/amazon-ecr-login/releases" target="_blank">aws-actions/amazon-ecr-login</a></li></ul></td>
+    </tr>
+    <tr><td>raw data source</td><td><a href="https://timeseriesdoc.sepa.org.uk" target="_blank">SEPA API</a> (Scottish Environment Protection Agency Application Programming Interface)</td></tr>
+</table>
 
-### GitHub Actions
-
-Core
-
-* [docker/login-action](https://github.com/docker/login-action/releases)
-* [docker/metadata-action](https://github.com/docker/metadata-action/releases)
-* [aws-actions/configure-aws-credentials](https://github.com/aws-actions/configure-aws-credentials/releases)
-* [aws-actions/amazon-ecr-login](https://github.com/aws-actions/amazon-ecr-login/releases)
 
 Extra
 * [Dockerfile](https://docs.docker.com/reference/dockerfile/)
