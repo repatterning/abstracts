@@ -20,7 +20,6 @@ Focusing on SEPA, time series modelling & analysis, <a href="https://aws.amazon.
   * [Identifying the order of differencing in an ARIMA model](https://people.duke.edu/~rnau/411arim2.htm)
   * [Identifying the numbers of AR or MA terms in an ARIMA model](https://people.duke.edu/~rnau/411arim3.htm)
 
-
 <br>
 <br>
 
