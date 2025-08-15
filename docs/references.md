@@ -73,18 +73,16 @@ and
   </tr>
   <tr><td>live server</td><td><a href="https://itnext.io/dockerizing-modern-web-apps-cd9667eebf44">live server & modern web apps</a>, <a href="https://github.com/tapio/live-server" target="_blank">live server @ github</a>, <a href="https://www.npmjs.com/package/live-server">live server @ npm</a></td>
   </tr>
+  <tr><td>vi & vim</td><td><a href="https://linuxsimply.com/cheat-sheets/vi/">vi reference sheet</a>, <a href="https://vim.rtorr.com">vim reference sheet</a>, <a href="https://www.redhat.com/en/blog/beginners-guide-vim">beginners guide @ redhat</a></td></tr>
+  <tr><td>graphing</td>
+      <td><ul>
+        <li>highcharts: <a href="https://api.highcharts.com/class-reference/Highcharts.Time#dateFormat">the date formats of highcharts</a>, <a href="https://www.highcharts.com/docs/stock/data-grouping">data grouping</a></li>
+        <li>dropdowns & lists: <a href="https://wpdean.com/css-dropdown-menus/">1</a>, <a href="https://jsfiddle.net/cL2x7/">2</a>, <a href="https://www.geeksforgeeks.org/how-to-creating-html-list-from-javascript-array/">3</a></li>
+      </ul></td></tr>
 </table>
 
 <br>
 
-
-### vim & vi
-
-* [vi](https://linuxsimply.com/cheat-sheets/vi/)
-* [vim](https://vim.rtorr.com)
-* [vim](https://www.redhat.com/en/blog/beginners-guide-vim)
-
-<br>
 
 ### JavaScript Modules
 
@@ -93,15 +91,6 @@ and
 * [Module Errors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/import_decl_module_top_level#importing_in_a_non-module_script)
 * [SCRIPT](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
 
-<br>
-
-### JavaScript & Graphing
-
-* [fetch](https://javascript.info/fetch)
-* [1](https://wpdean.com/css-dropdown-menus/), [2](https://jsfiddle.net/cL2x7/), [3](https://www.geeksforgeeks.org/how-to-creating-html-list-from-javascript-array/)
-* High Charts
-  * [data grouping](https://www.highcharts.com/docs/stock/data-grouping)
-  * [the date formats](https://api.highcharts.com/class-reference/Highcharts.Time#dateFormat)
 
 <br>
 <br>
