@@ -53,6 +53,7 @@ and
 ### GitHub Actions
 
 Core
+
 * [docker/login-action](https://github.com/docker/login-action/releases)
 * [docker/metadata-action](https://github.com/docker/metadata-action/releases)
 * [aws-actions/configure-aws-credentials](https://github.com/aws-actions/configure-aws-credentials/releases)
@@ -84,8 +85,8 @@ Extra
 ### live server
 
 * [live server](https://itnext.io/dockerizing-modern-web-apps-cd9667eebf44)
-* [github](https://github.com/tapio/live-server)
-* [npm](https://www.npmjs.com/package/live-server)
+* [liver server @ github](https://github.com/tapio/live-server)
+* [liver server @ npm](https://www.npmjs.com/package/live-server)
 
 <br>
 
