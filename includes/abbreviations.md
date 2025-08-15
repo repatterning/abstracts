@@ -13,3 +13,4 @@
 *[AI]: Artificial Intelligence
 *[SEPA]: Scottish Environment Protection Agency
 *[NSWWS]: National Severe Weather Warnings Service
+*[RSS]: Really Simple Syndication
