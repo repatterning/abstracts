@@ -109,5 +109,6 @@ nav:
       - preliminaries-assets.md
   - Analytics & Models:
       - mathematics/data.md
+      - mathematics/models.md
       - mathematics/drift.md
   - References: references.md
