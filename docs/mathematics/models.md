@@ -10,7 +10,7 @@ A Bayesian Structural Time Series (STS) algorithm is a state space algorithm, in
 
 $$y_{t} = \pmb{x}^{T}_{t}\pmb{\beta}_{t} + \epsilon_{t} \qquad \qquad \qquad 1$$
 
-$$\pmb{\beta}\_{t} = \mathbf{F}\_{t}\pmb{\beta}\_{t - 1} + \pmb{\varsigma}_{t} \qquad \qquad 2$$
+$$\pmb{\beta}_{t} = \mathbf{F}_{t}\pmb{\beta}_{t - 1} + \pmb{\varsigma}_{t} \qquad \qquad 2$$
 
 $$\epsilon_{t} \sim \mathcal{N}\bigl(0, \: \sigma^{2}_{t}  \bigr) \qquad \qquad \qquad$$
 
