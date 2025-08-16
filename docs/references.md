@@ -34,15 +34,6 @@ and
   * [Identifying the numbers of AR or MA terms in an ARIMA model](https://people.duke.edu/~rnau/411arim3.htm)
 * [Natural Logarithm Transformations](https://www.bridgetext.com/log-transforming-time-series-data-in-r)
 
-<br>
-
-## Time & Formatting
-
-* [Epoch Time](https://unixtime.org)
-* [UNIX Time Converters](https://time.is/Unix_time_converter)
-* [Time Durations](https://en.wikipedia.org/wiki/ISO_8601#Durations)
-* [Time Formatting Codes](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes)
-
 
 <br>
 
@@ -54,7 +45,13 @@ and
       <col span="1" style="width: 43.5%;">
   </colgroup>
   <thead><tr style="text-align: left"><th>&nbsp;</th><th>Notes</th></tr></thead>
-  <tr><td>linux</td><td>[ubuntu man pages](https://manpages.ubuntu.com/manpages/trusty/man1/)</td></tr>
+  <tr><td>linux</td><td><a href="https://manpages.ubuntu.com/manpages/trusty/man1/" target="_blank">ubuntu man pages</a></td></tr>
+  <tr><td>time & formatting</td>
+      <td><ul>
+          <li>time converters: <a href="https://unixtime.org" target="_blank">https://unixtime.org</a>, <a href="https://time.is/Unix_time_converter" target="_blank">unix time converter</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/ISO_8601#Durations" target="_blank">durations</a></li>
+          <li><a href="https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes" target="_blank">formatting (python)</a></li>
+      </ul></td></tr>
   <tr>
     <td>GitHub Actions</td>
     <td>Core<ul>
