@@ -15,3 +15,5 @@
 *[NSWWS]: National Severe Weather Warnings Service
 *[RSS]: Really Simple Syndication
 *[cefas]: Centre for Environment Fisheries and Aquaculture Science
+*[ARIMA]: Auto Regressive Integrated Moving Average
+*[ETS]: Error Trend Seasonality
