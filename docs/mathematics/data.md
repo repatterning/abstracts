@@ -1,5 +1,7 @@
 # Data
 
+## Sources
+
 The data sources include:
 
 <table style="width: 85%; margin-left: 35px; vertical-align: top; font-size: .7rem;">
@@ -15,6 +17,41 @@ The data sources include:
     <td><abbr title="Centre for Environment Fisheries and Aquaculture Science">cefas</abbr>, catchment boundaries (<a href="https://data.cefas.co.uk/view/21969" target="_blank">1</a>, <a href="https://data.cefas.co.uk/view/21970" target="_blank">2</a>)</td>
   </tr>
 </table>
+
+<br>
+
+## Weather Warnings & Meteorological Office
+
+* [Warnings](https://weather.metoffice.gov.uk/guides/warnings)
+* [RSS feeds from the Met Office](https://weather.metoffice.gov.uk/guides/rss)
+* [email alerts](https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/subscribe-to-email-alerts)
+* [National Severe Weather Warnings Service Public API](https://metoffice.github.io/nswws-public-api)
+
+and
+
+* [Materials & RSS](https://squidfunk.github.io/mkdocs-material/setup/setting-up-a-blog/#rss)
+
+
+<br>
+
+## Exploratory Analysis Methods
+
+* [Partial Auto-correlation Plot](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4463.htm).  [Auto-correlation Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/autocopl.htm): For investigating questions such as (From <abbr title="National Institute of Standards and Technology">NIST</abbr>)
+    1. Is an observation related to an adjacent observation?
+    2. Is an observation related to an observation twice-removed? (etc.)
+    3. Is the observed time series white noise?
+    4. Is the observed time series sinusoidal?
+    5. Is the observed time series autoregressive?
+
+* [Statistical forecasting: notes on regression and time series analysis](https://people.duke.edu/~rnau/411home.htm)
+    1. [Identifying the order of differencing in an ARIMA model](https://people.duke.edu/~rnau/411arim2.htm)
+    2. [Identifying the numbers of AR or MA terms in an ARIMA model](https://people.duke.edu/~rnau/411arim3.htm)
+
+* De-trending, etc.
+    1. [Stationarity, De-trending, Tests](https://www.statsmodels.org/dev/examples/notebooks/generated/stationarity_detrending_adf_kpss.html)
+    2. [Robust de-trending, re-referencing, outlier detection, and inpainting for multichannel data](https://pmc.ncbi.nlm.nih.gov/articles/PMC5915520/)
+
+* [Model Identification for Southern Oscillations Data](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4461.htm)
 
 <br>
 <br>
