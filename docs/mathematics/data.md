@@ -28,9 +28,7 @@ The data sources:
 * [email alerts](https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/subscribe-to-email-alerts)
 * [National Severe Weather Warnings Service Public API](https://metoffice.github.io/nswws-public-api)
 
-
 <br>
-
 
 ## Exploratory Analysis Methods
 
