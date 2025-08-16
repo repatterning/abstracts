@@ -14,7 +14,7 @@ $$\pmb{\beta}_{t} = \mathbf{F}_{t}\pmb{\beta}_{t - 1} + \pmb{\varsigma}_{t} \qqu
 
 $$\epsilon_{t} \sim \mathcal{N}\bigl(0, \: \sigma^{2}_{t}  \bigr) \qquad \qquad \qquad$$
 
-$$\pmb{\varsigma}\_{t} \sim \mathcal{N}\bigl(\mathbf{0}, \: \pmb{\mathcal{Z}}\_{t}\bigr) \qquad \qquad \qquad$$
+$$\pmb{\varsigma}_{t} \sim \mathcal{N}\bigl(\mathbf{0}, \: \pmb{\mathcal{Z}}_{t}\bigr) \qquad \qquad \qquad$$
 
 whereby
 
