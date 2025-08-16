@@ -2,7 +2,7 @@
 
 ## Sources
 
-The data sources include:
+The data sources:
 
 <table style="width: 85%; margin-left: 35px; vertical-align: top; font-size: .7rem;">
   <colgroup>
@@ -22,26 +22,23 @@ The data sources include:
 
 ## Weather Warnings & Meteorological Office
 
-* [Warnings](https://weather.metoffice.gov.uk/guides/warnings)
-* [RSS feeds from the Met Office](https://weather.metoffice.gov.uk/guides/rss)
+[Meteorological Office Warnings Services](https://weather.metoffice.gov.uk/guides/warnings):
+
+* [RSS feeds](https://weather.metoffice.gov.uk/guides/rss)[^materials-and-rss]
 * [email alerts](https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/subscribe-to-email-alerts)
 * [National Severe Weather Warnings Service Public API](https://metoffice.github.io/nswws-public-api)
-
-and
-
-* [Materials & RSS](https://squidfunk.github.io/mkdocs-material/setup/setting-up-a-blog/#rss)
 
 
 <br>
 
+
 ## Exploratory Analysis Methods
 
-* [Partial Auto-correlation Plot](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4463.htm).  [Auto-correlation Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/autocopl.htm): For investigating questions such as (From <abbr title="National Institute of Standards and Technology">NIST</abbr>)
-    1. Is an observation related to an adjacent observation?
-    2. Is an observation related to an observation twice-removed? (etc.)
-    3. Is the observed time series white noise?
-    4. Is the observed time series sinusoidal?
-    5. Is the observed time series autoregressive?
+* [Partial Auto-correlation Plot](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4463.htm).  [Auto-correlation Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/autocopl.htm): For investigating questions such as[^auto-correlation]
+    1. _Is an observation related to an adjacent observation?_
+    2. _Is the observed time series white noise?_
+    3. _Is the observed time series sinusoidal?_
+    4. _Is the observed time series autoregressive?_
 
 * [Statistical forecasting: notes on regression and time series analysis](https://people.duke.edu/~rnau/411home.htm)
     1. [Identifying the order of differencing in an ARIMA model](https://people.duke.edu/~rnau/411arim2.htm)
@@ -61,6 +58,12 @@ and
 
 <br>
 <br>
+
+<br>
+<br>
+
+[^materials-and-rss]: [Materials & RSS](https://squidfunk.github.io/mkdocs-material/setup/setting-up-a-blog/#rss)
+[^auto-correlation]: From NIST [Auto-correlation Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/autocopl.htm)
 
 <br>
 <br>
