@@ -1,0 +1,32 @@
+{% extends "main.html" %}
+
+{% block announce %}
+<p>Please be patient, in active progress.</p>
+{% endblock %}
+
+{% block content %}
+<style>
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .landing-text{
+        width: 80%;
+    }
+
+</style>
+<section class="flex-container md-typeset">
+  <div class="landing-text">
+    <h1>River Levels</h1>
+    <p>{{ config.site_description }}</p>
+    <a href="{{ page.next_page.url }}preliminaries-critical" class="md-button md-button--primary">
+      READ
+    </a>
+    &nbsp; &nbsp; &nbsp;
+    <a href="https://github.com/theartificialintelligenceunit" class="md-button md-button--primary" target="_blank">
+      ARTIFICIAL INTELLIGENCE UNIT &#8617;
+    </a>
+  </div>
+</section>
+{% endblock %}

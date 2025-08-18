@@ -1,0 +1,114 @@
+# Preliminaries
+site_name: River Levels
+site_url: https://repatterning.github.io/abstract
+site_author: Artificial Intelligence Unit
+site_description: River levels intelligence.
+
+
+# Repository
+repo_name: github.com/repatterning/abstract
+repo_url: https://github.com/repatterning/abstract
+
+
+# Copyright
+copyright: Copyright &copy; Artificial Intelligence Unit
+
+
+# Theme
+theme:
+  name: material
+  custom_dir: overrides/
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  palette:
+    primary: orange
+    accent: amber
+  icon:
+    admonition:
+      example: material/gate-alert
+  font:
+    text: Quantico
+    code: Iceland
+
+
+# Watch
+watch:
+  - includes
+
+
+# CSS
+extra_css:
+  - assets/stylesheets/extra.css
+
+
+# JavaScript
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.9.0/mermaid.min.js
+
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+# Python Markdown & Python Markdown Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+
+
+# Page tree
+nav:
+  - Preliminaries:
+      - preliminaries-critical.md
+      - preliminaries-assets.md
+  - Analytics & Models:
+      - mathematics/data.md
+      - mathematics/models.md
+      - mathematics/drift.md
+  - References: references.md

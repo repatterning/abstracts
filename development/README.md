@@ -1,153 +1,105 @@
 <br>
 
-## Project Notes
-
-Weather Warnings
-* [Warnings](https://weather.metoffice.gov.uk/guides/warnings)
-* [RSS feeds from the Met Office](https://weather.metoffice.gov.uk/guides/rss)
-
-<br>
-<br>
-<br>
-
-## Development
-
-### NGINX
-
-* [docker hub](https://hub.docker.com/_/nginx)
-* [docker nginx](https://toxigon.com/setting-up-nginx-with-docker)
-* [docker nginx](https://www.uptimia.com/questions/how-to-run-nginx-in-the-foreground-within-a-docker-container#implementing-the-solution-in-docker)
-* [extra help](https://itnext.io/dockerizing-modern-web-apps-cd9667eebf44)
-* [more](https://www.socketxp.com/iot/remote-access-nginx-web-server-from-internet/)
-* [nginx -g 'daemon off;'](https://www.thecoderscamp.com/nginx-g-daemon-off/)
-* [Dockerfile](https://github.com/devasthali-os/nginx-base/blob/master/Dockerfile)
-* [conf](https://nginx.org/en/docs/beginners_guide.html#conf_structure)
-* [MIME (Multipurpose Internet Mail Extensions) Types](https://server.hk/blog/14461/)
-* [MIME Types](https://www.slingacademy.com/article/nginx-mime-types-the-complete-guide/)
-* [load error example](https://www.slingacademy.com/article/nginx-error-cannot-load-css-js-files/)
+The repository's development notes.
 
 <br>
 
-### live server
+## Materials
 
-* [live server](https://itnext.io/dockerizing-modern-web-apps-cd9667eebf44)
-* [github](https://github.com/tapio/live-server)
-* [npm](https://www.npmjs.com/package/live-server)
+Launch an interactive environment via
 
-<br>
+```shell
+docker run --rm -i -t -p 8000:8000 -w /app 
+  --mount type=bind,src="$(pwd)",target=/app materials
+```
 
-### vim & vi
+Subsequently, launch a web server, i.e., `mkdocs server`, via
 
-* [vi](https://linuxsimply.com/cheat-sheets/vi/)
-* [vim](https://vim.rtorr.com)
-* [vim](https://www.redhat.com/en/blog/beginners-guide-vim)
-
-<br>
-
-### JavaScript Modules
-
-* [Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
-* [Modules](https://javascript.info/modules)
-* [Module Errors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/import_decl_module_top_level#importing_in_a_non-module_script)
-* [SCRIPT](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
+```shell
+mkdocs serve -a 0.0.0.0:8000
+```
 
 <br>
 
-### JavaScript
+### Remote Development
 
-* [fetch](https://javascript.info/fetch)
-* [1](https://wpdean.com/css-dropdown-menus/), [2](https://jsfiddle.net/cL2x7/), [3](https://www.geeksforgeeks.org/how-to-creating-html-list-from-javascript-array/)
-* High Charts
-  * [data grouping](https://www.highcharts.com/docs/stock/data-grouping)
-  * [the date formats](https://api.highcharts.com/class-reference/Highcharts.Time#dateFormat)
+For this Python project/template, the remote development environment requires
 
-  
+* [Dockerfile](../.devcontainer/Dockerfile)
+* [requirements.txt](../.devcontainer/requirements.txt)
+
+An image is built via the command
+
+```shell
+docker build . --file .devcontainer/Dockerfile -t materials
+```
+
+On success, the output of
+
+```shell
+docker images
+```
+
+should include
+
+<br>
+
+| repository | tag    | image id | created  | size     |
+|:-----------|:-------|:---------|:---------|:---------|
+| materials  | latest | $\ldots$ | $\ldots$ | $\ldots$ |
+
+
+<br>
+
+Subsequently, run an instance of the image `materials` via:
+
+```shell
+docker run --rm -i -t -p 8000:8000 -w /app 
+  --mount type=bind,src="$(pwd)",target=/app materials
+```
+
+<br>
+
+Herein, `-p 8000:8000` maps the host port `8000` to container port `8000`.  Note, the container's working environment,
+i.e., `-w`, must be inline with this project's top directory.  Additionally, visit the links for more about the flags/options $\rightarrow$
+
+* --rm: [automatically remove container](https://docs.docker.com/engine/reference/commandline/run/#:~:text=a%20container%20exits-,%2D%2Drm,-Automatically%20remove%20the)
+* -i: [interact](https://docs.docker.com/engine/reference/commandline/run/#:~:text=and%20reaps%20processes-,%2D%2Dinteractive,-%2C%20%2Di)
+* -t: [tag](https://docs.docker.com/get-started/02_our_app/#:~:text=Finally%2C%20the-,%2Dt,-flag%20tags%20your)
+* -p: [publish the container's port/s to the host](https://docs.docker.com/engine/reference/commandline/run/#:~:text=%2D%2Dpublish%20%2C-,%2Dp,-Publish%20a%20container%E2%80%99s)
+* --mount type=bind: [a bind mount](https://docs.docker.com/engine/storage/bind-mounts/#syntax)
+* -v: [volume](https://docs.docker.com/engine/storage/volumes/)
+
+<br>
+
+Get the name of a running instance of ``materials`` via:
+
+```shell
+docker ps --all
+```
+
+**Never deploy a root container**.
+
+<br>
+
+### Remote Development & Integrated Development Environments
+
+An IDE (integrated development environment) is a helpful remote development tool.  The **IntelliJ
+IDEA** set up involves connecting to a machine's Docker [daemon](https://www.jetbrains.com/help/idea/docker.html#connect_to_docker), the steps are
+
+> * **Settings** $\rightarrow$ **Build, Execution, Deployment** $\rightarrow$ **Docker** $\rightarrow$ **WSL:** {select the linux operating system}
+> * **View** $\rightarrow$ **Tool Window** $\rightarrow$ **Services** <br>Within the **Containers** section connect to the running instance of interest, or ascertain connection to the running instance of interest.
+
+<br>
+
+**Visual Studio Code** has its container attachment instructions; study [Attach Container](https://code.visualstudio.com/docs/devcontainers/attach-container).
+
+
 <br>
 <br>
-<br>
+
 
 ## References
-
-### SEPA, etc.
-
-Scottish Environment Protection Agency (SEPA):
-* [Application Programming Interface](https://timeseriesdoc.sepa.org.uk/api-documentation/)
-* [Query Service](https://timeseries.sepa.org.uk/KiWIS/KiWIS?datasource=0&service=kisters&type=queryServices&request=getrequestinfo)
-* [Water Levels](https://www.sepa.org.uk/environment/water/water-levels/)
-  * [Water Levels](https://waterlevels.sepa.org.uk/)
-* [Catchment boundaries for Scotland based on Scottish Environment Protection Agency (SEPA) catchments (WGS84) 2023](https://data.cefas.co.uk/view/21970)
-* [Environmental Data](https://www.sepa.org.uk/environment/environmental-data/)
-* [Geospatial Standards Register](https://www.gov.uk/government/publications/uk-geospatial-data-standards-register/national-geospatial-data-standards-register)
-* [Access Control](https://timeseriesdoc.sepa.org.uk/api-documentation/before-you-start/what-controls-there-are-on-access/)
-* [Quality Codes](https://timeseriesdoc.sepa.org.uk/api-documentation/before-you-start/how-data-validity-may-change/)
-* [Gauge Height](https://waterdata.usgs.gov/blog/gage_height/)
-  * [The Reference Point](https://www.usgs.gov/media/images/gage-datum-reference-point)
-
-<br>
-
-Time Series Modelling & Analysis:
-* [Forecasting Principles & Practice: Stationarity](https://otexts.com/fpp2/stationarity.html)
-* [Stationarity, De-trending, Tests](https://www.statsmodels.org/dev/examples/notebooks/generated/stationarity_detrending_adf_kpss.html)
-* [Model Identification for Southern Oscillations Data](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4461.htm)
-* [Robust de-trending, re-referencing, outlier detection, and inpainting for multichannel data](https://pmc.ncbi.nlm.nih.gov/articles/PMC5915520/)
-* [Using ARIMA and ETS models for forecasting water level changes for sustainable environmental management](https://www.nature.com/articles/s41598-024-73405-9)
-* [Partial Auto-correlation Plot](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4463.htm)
-* [Auto-correlation Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/autocopl.htm): For investigating questions such as (From <abbr title="National Institute of Standards and Technology">NIST</abbr>)
-  * Is an observation related to an adjacent observation?
-  * Is an observation related to an observation twice-removed? (etc.)
-  * Is the observed time series white noise?
-  * Is the observed time series sinusoidal?
-  * Is the observed time series autoregressive?
-* [Statistical forecasting: notes on regression and time series analysis](https://people.duke.edu/~rnau/411home.htm)
-  * [Identifying the order of differencing in an ARIMA model](https://people.duke.edu/~rnau/411arim2.htm)
-  * [Identifying the numbers of AR or MA terms in an ARIMA model](https://people.duke.edu/~rnau/411arim3.htm)
-
-<br>
-
-Extra:
-* [Natural Logarithm Transformations](https://www.bridgetext.com/log-transforming-time-series-data-in-r)
-* [Time Formatting Codes](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes)
-* [statsmodels.tsa.stattools.pacf](https://www.statsmodels.org/dev/generated/statsmodels.tsa.stattools.pacf.html)
-* [statsmodels.graphics.tsaplots.plot_pacf](https://www.statsmodels.org/dev/generated/statsmodels.graphics.tsaplots.plot_pacf.html)
-* [python: hub.docker.com](https://hub.docker.com/_/python/)
-
-
-<br>
-
-
-### Linux Distributions
-
-* [ubuntu man pages](https://manpages.ubuntu.com/manpages/trusty/man1/)
-
-
-<br>
-
-### Time
-
-* [Epoch Time](https://unixtime.org)
-* [UNIX Time Converters](https://time.is/Unix_time_converter)
-* [Time Durations](https://en.wikipedia.org/wiki/ISO_8601#Durations)
-
-
-<br>
-
-### GitHub Actions
-
-Core
-* [docker/login-action](https://github.com/docker/login-action/releases)
-* [docker/metadata-action](https://github.com/docker/metadata-action/releases)
-* [aws-actions/configure-aws-credentials](https://github.com/aws-actions/configure-aws-credentials/releases)
-* [aws-actions/amazon-ecr-login](https://github.com/aws-actions/amazon-ecr-login/releases)
-
-<br>
-
-Extra
-* [Dockerfile](https://docs.docker.com/reference/dockerfile/)
-* [requirements.txt](https://pip.pypa.io/en/stable/reference/requirements-file-format/)
-* [docker run](https://docs.docker.com/reference/cli/docker/container/run/)
-
-
-<br>
 
 ### DASK & Amazon EMR (Elastic MapReduce)
 
@@ -174,16 +126,6 @@ Packaging for deployment:
 
 <br>
 
-Beware of Python versions:
-* [Amazon EMR Release Guide](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-780-release.html)
-
-<br>
-
-For Cloud Formation:
-* [Intrinsic Functions](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-join.html)
-
-<br>
-
 ### RAPIDS & Spark & EMR
 
 * [Use the Nvidia RAPIDS Accelerator for Apache Spark](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-spark-rapids.html)
@@ -196,7 +138,7 @@ For Cloud Formation:
 * [Amazon EMR & Dockerfile](https://github.com/awslabs/data-on-eks/blob/main/ai-ml/emr-spark-rapids/examples/xgboost/Dockerfile)
 * [cutting cost](https://developer.nvidia.com/blog/accelerated-data-analytics-faster-time-series-analysis-with-rapids-cudf/)
 * [Getting Started: Amazon EMR, Python, Spark](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-gs.html#emr-getting-started-plan-and-configure)
-
+* [Amazon EMR Release Guide](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-780-release.html)
 
 <br>
 
@@ -233,7 +175,7 @@ TEMPLATES
 * [user data & cloud init](https://cloudinit.readthedocs.io/en/latest/explanation/format.html#mime-multi-part-archive)
 * [user data & launch templates](https://docs.aws.amazon.com/batch/latest/userguide/launch-templates.html)
 * [Amazon EC2 launch template examples](https://docs.aws.amazon.com/batch/latest/userguide/launch-template-examples.html)
-
+* [Intrinsic Functions](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-join.html)
 
 <br>
 <br>
