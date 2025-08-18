@@ -18,3 +18,4 @@
 *[ARIMA]: Auto Regressive Integrated Moving Average
 *[ETS]: Error Trend Seasonality
 *[NIST]: National Institute of Standards & Technology
+*[w.r.t]: with respect to
