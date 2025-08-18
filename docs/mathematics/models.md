@@ -1,6 +1,13 @@
 # Models
 
-Forecasting river levels.
+Forecasting river levels.  In general &rarr;
+
+* input: hourly river level data
+* output: forecasting [t](https://github.com/repatterning/configurations/blob/3e4479768e18b86c806123f37d5394d4f0489e1b/src/artefacts/architecture/variational/arguments.json#L10) hours ahead.
+* schedule:
+    1. Standard: Wednesday, Sunday
+    2. During storms: Every 15 or 30 minutes &Rarr; vis-à-vis gauge stations within a warning area.
+
 
 ## Bayesian Structural Time Series + Variational Inference
 
