@@ -110,5 +110,6 @@ nav:
   - Analytics & Models:
       - mathematics/data.md
       - mathematics/models.md
+      - mathematics/risks.md
       - mathematics/drift.md
   - References: references.md
