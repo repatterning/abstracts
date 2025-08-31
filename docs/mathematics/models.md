@@ -17,7 +17,7 @@ A Bayesian Structural Time Series (STS) algorithm is a state space algorithm, in
 
 $$y_{t} = \pmb{x}^{T}_{t}\pmb{\beta}_{t} + \epsilon_{t} \qquad \qquad \qquad 1$$
 
-$$\pmb{\beta}_{t} = \mathbf{F}_{t}\pmb{\beta}_{t - 1} + \pmb{\varsigma}_{t} \qquad \qquad 2$$
+$$\pmb{\beta}_{t} = \mathbf{F}_{t}\pmb{\beta}_{t - 1} + \pmb{\varsigma}_{t} \qquad \qquad \quad 2$$
 
 $$\epsilon_{t} \sim \mathcal{N}\bigl(0, \: \sigma^{2}_{t}  \bigr) \qquad \qquad \qquad$$
 
@@ -41,7 +41,7 @@ Formally, <b>Eq. 1</b>  is the <i>observation model</i>, whilst <b>Eq. 2</b> is 
 
 A key advantage of state space modelling is $\rightarrow$ modelling via the superimposition of behaviours.  The superimposition, encoding, of behaviours occurs via the components $\pmb{x}_{t}$ & $\mathbf{F}_{t}$.  For an in-depth outline, study <a href="https://link.springer.com/book/10.1007/978-3-030-76124-0" target="_blank">Bayesian Inference of State Space Models</a> by K. Triantafyllopoulos.<br><br>
 
-In practice, model development is via <a href="https://www.tensorflow.org/probability" target="_blank">TensorFlow Probability</a> libraries.  Visit the project's river level modelling [GitHub] <a href="https://github.com/repatterning/variational/tree/master" target="_blank">repository</a>; <a href="https://github.com/repatterning/variational/blob/master/src/modelling/architecture.py" target="_blank">modelling class</a>; the modelling arguments are readable <a href="https://github.com/repatterning/configurations/blob/master/src/artefacts/architecture/variational/arguments.yaml" target="_blank">with</a> or <a href="https://github.com/repatterning/configurations/blob/master/src/artefacts/architecture/variational/arguments.json" target="_blank">without</a> comments/definitions.
+In practice, model development is via <a href="https://www.tensorflow.org/probability" target="_blank">TensorFlow Probability</a> libraries.  Visit the project's river level modelling [GitHub] <a href="https://github.com/repatterning/variational/tree/master" target="_blank">repository</a>; the modelling arguments are readable <a href="https://github.com/repatterning/configurations/blob/master/src/artefacts/architecture/variational/arguments.yaml" target="_blank">with</a> or <a href="https://github.com/repatterning/configurations/blob/master/src/artefacts/architecture/variational/arguments.json" target="_blank">without</a> comments/definitions.
 
 <br>
 <br>
