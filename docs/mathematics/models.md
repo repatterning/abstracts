@@ -56,11 +56,6 @@ In practice, model development is via <a href="https://www.tensorflow.org/probab
 <br>
 
 [^structure]: For more about the structure options of $\pmb{\varsigma}_{t}$, i.e., system errors, study <a href="https://projecteuclid.org/journals/annals-of-applied-statistics/volume-9/issue-1/Inferring-causal-impact-using-Bayesian-structural-time-series-models/10.1214/14-AOAS788.full" target="_blank">Inferring causal impact using Bayesian structural time-series models</a>, and <a href="https://link.springer.com/book/10.1007/978-3-030-76124-0" target="_blank">Bayesian Inference of State Space Models</a>
-[^principles]: [Forecasting Principles & Practice: Stationarity](https://otexts.com/fpp2/stationarity.html)
-[^methods]: <a href="https://www.nature.com/articles/s41598-024-73405-9" target="_blank">Using ARIMA and ETS models for forecasting water level changes for sustainable environmental management</a>, Scientific Reports 14, 22444 (2024)
-[^ets]: <a href="https://otexts.com/fpp3/ets-forecasting.html">Forecasting with ETS Models</a>
-[^arima-vs-ets]: <a href="https://otexts.com/fpp3/arima-ets.html">ARIMA vs ETS</a>
-[^transformations]: [Natural Logarithm Transformations](https://www.bridgetext.com/log-transforming-time-series-data-in-r)
 
 <br>
 <br>
