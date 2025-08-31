@@ -16,6 +16,16 @@ The data sources:
     <td>Granular Catchment Polygons</td>
     <td><abbr title="Centre for Environment Fisheries and Aquaculture Science">CEFAS</abbr>: <ul><li>Catchment Boundaries Pages &Rarr; <a href="https://data.cefas.co.uk/view/21969" target="_blank">1</a>, <a href="https://data.cefas.co.uk/view/21970" target="_blank">2</a></li><li><a href="https://www.cefas.co.uk/data-and-publications/cefas-data-hub-apis">Application Programming Interface Details</a></li></ul></td>
   </tr>
+  <tr><td>Care Homes</td><td>A raw <a href="https://data.spatialhub.scot/dataset/care_homes_for_older_people-is" target="_blank">gazetteer of Scotland's care homes</a> is available via <a href="https://data.spatialhub.scot/dataset/care_homes_for_older_people-is">Scotland's Spatial Hub</a>. For programmatic retrieval
+  <pre>
+    <b>{file.name}</b> = Care_Homes_for_Older_People_-_Scotland
+    url = &quot;https://geo.spatialhub.scot/geoserver/sh_chep/wfs?service=WFS&
+                authkey=<b>{authentication.key}</b>&request=GetFeature&
+                typeName=sh_chep:pub_chep&
+                format_options=filename:<b>{file.name}</b>&
+                outputFormat=application/json&quot;
+  </pre></td>
+  </tr>
 </table>
 
 <br>
