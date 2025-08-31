@@ -1,5 +1,24 @@
 # References
 
+## Modelling & Analysis
+
+<table style="width: 85%; margin-left: 35px; vertical-align: top; font-size: .7rem;">
+  <colgroup>
+      <col span="1" style="width: 43.5%;">
+  </colgroup>
+  <thead><tr style="text-align: left"><th>PAPERS, BOOKS, etc.</th></tr></thead>
+  <tr><td><a href="https://link.springer.com/book/10.1007/978-3-030-76124-0" target="_blank">Bayesian Inference of State Space Models</a></td></tr>
+  <tr><td><a href="https://projecteuclid.org/journals/annals-of-applied-statistics/volume-9/issue-1/Inferring-causal-impact-using-Bayesian-structural-time-series-models/10.1214/14-AOAS788.full" target="_blank">Inferring causal impact using Bayesian structural time-series models</a></td></tr>
+  <tr><td><a href="https://direct.mit.edu/books/oa-monograph-pdf/2514321/book_9780262256834.pdf">Gaussian Processes for Machine Learning</a></td></tr>
+  <tr><td><a href="https://link.springer.com/article/10.1007/s10994-021-05946-3" target="_blank">Aleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods</a></td></tr>
+  <tr><td><a href="https://otexts.com/fpp2/stationarity.html" target="_blank">Forecasting Principles & Practice: Stationarity</a></td></tr>
+  <tr><td><a href="https://www.nature.com/articles/s41598-024-73405-9" target="_blank">Using ARIMA and ETS models for forecasting water level changes for sustainable environmental management</a>, Scientific Reports 14, 22444 (2024)</td></tr>
+  <tr><td><a href="https://otexts.com/fpp3/ets-forecasting.html">Forecasting with ETS Models</a></td></tr>
+  <tr><td><a href="https://otexts.com/fpp3/arima-ets.html">ARIMA vs ETS</a></td></tr>
+  <tr><td><a href="https://www.bridgetext.com/log-transforming-time-series-data-in-r" target="_blank">Natural Logarithm Transformations</a></td></tr>
+</table>
+
+
 ## Programming, Development
 
 <table style="width: 85%; margin-left: 35px; vertical-align: top; font-size: .7rem;">
