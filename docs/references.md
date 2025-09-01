@@ -26,9 +26,11 @@
     <li><a href="https://otexts.com/fpp2/stationarity.html" target="_blank">Stationarity</a></li>
     <li><a href="https://www.bridgetext.com/log-transforming-time-series-data-in-r" target="_blank">Natural Logarithm Transformations</a></li>
     </ul></td></tr>
-  <tr><td><a href="https://www.nature.com/articles/s41598-024-73405-9" target="_blank">Using ARIMA and ETS models for forecasting water level changes for sustainable environmental management</a>, Scientific Reports 14, 22444 (2024)</td></tr>
-  <tr><td><a href="https://otexts.com/fpp3/ets-forecasting.html">Forecasting with ETS Models</a></td></tr>
-  <tr><td><a href="https://otexts.com/fpp3/arima-ets.html">ARIMA vs ETS</a></td></tr>
+  <tr><td><abbr title="Auto Regressive Integrated Moving Average">ARIMA</abbr>, <abbr title="Error Trend Seasonality">ETS</abbr>
+    <ul>
+    <li><a href="https://www.nature.com/articles/s41598-024-73405-9" target="_blank">Using ARIMA and ETS models for forecasting water level changes for sustainable environmental management</a>, Scientific Reports 14, 22444 (2024)</li>
+    <li><a href="https://otexts.com/fpp3/arima-ets.html">ARIMA vs ETS</a></li>
+    </ul></td></tr>
 </table>
 
 
@@ -39,7 +41,7 @@
       <col span="1" style="width: 18.5%;">
       <col span="1" style="width: 43.5%;">
   </colgroup>
-  <thead><tr style="text-align: left"><th>&nbsp;</th><th>Notes</th></tr></thead>
+  <thead><tr style="text-align: left"><th>&nbsp;</th><th>NOTES</th></tr></thead>
   <tr><td>linux</td><td><a href="https://manpages.ubuntu.com/manpages/trusty/man1/" target="_blank">ubuntu man pages</a></td></tr>
   <tr><td>time & formatting</td>
       <td><ul>
