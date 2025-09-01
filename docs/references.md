@@ -7,14 +7,20 @@
       <col span="1" style="width: 43.5%;">
   </colgroup>
   <thead><tr style="text-align: left"><th>PAPERS, BOOKS, etc.</th></tr></thead>
+  <tr><td><a href="https://direct.mit.edu/books/oa-monograph-pdf/2514321/book_9780262256834.pdf">Gaussian Processes for Machine Learning</a><ul>
+    <li><a href="https://arxiv.org/pdf/1306.2861" target="_blank">Bayesian Inference and Learning in Gaussian Process State-Space Models with Particle MCMC</a></li>
+    <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7890411" target="_blank">Gaussian Process State-Space Models with Time-Varying Parameters and Inducing Points</a></li>
+    <li><a href="https://arxiv.org/pdf/1705.10888" target="_blank">Identification of Gaussian Process State Space Models</a></li>
+    <li><a href="https://www.tensorflow.org/probability/examples/Gaussian_Process_Regression_In_TFP" target="_blank">Gaussian Process Regression in TensorFlow Probability</a></li>
+    <li><a href="https://www.pymc.io/projects/examples/en/latest/gaussian_processes/GP-MaunaLoa.html" target="_blank">Gaussian Process for CO2 at Mauna Loa</a> (<a href="https://www.pymc.io/welcome.html" target="blank">PyMC</a>)</li>
+    </ul></td></tr>
   <tr><td><a href="https://link.springer.com/book/10.1007/978-3-030-76124-0" target="_blank">Bayesian Inference of State Space Models</a>
     <ul>
       <li><a href="https://blog.tensorflow.org/2019/03/structural-time-series-modeling-in.html" target="_blank">Structural Time Series modeling in TensorFlow Probability</a></li>
 	    <li><a href="https://www.tensorflow.org/probability/api_docs/python/tfp/sts" target="_blank">Framework for Bayesian structural time series models</a></li>
 	    <li><a href="https://www.tensorflow.org/probability/examples/Structural_Time_Series_Modeling_Case_Studies_Atmospheric_CO2_and_Electricity_Demand" target="_blank">Structural Time Series Modeling Case Studies: Atmospheric CO2 and Electricity Demand</a></li>
       <li><a href="https://projecteuclid.org/journals/annals-of-applied-statistics/volume-9/issue-1/Inferring-causal-impact-using-Bayesian-structural-time-series-models/10.1214/14-AOAS788.full" target="_blank">Inferring causal impact using Bayesian structural time-series models</a></li>
-    </ul></td></tr>
-  <tr><td><a href="https://direct.mit.edu/books/oa-monograph-pdf/2514321/book_9780262256834.pdf">Gaussian Processes for Machine Learning</a></td></tr>
+    </ul></td></tr>  
   <tr><td><a href="https://link.springer.com/article/10.1007/s10994-021-05946-3" target="_blank">Aleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods</a></td></tr>
   <tr><td><a href="https://otexts.com/fpp2/stationarity.html" target="_blank">Forecasting Principles & Practice: Stationarity</a></td></tr>
   <tr><td><a href="https://www.nature.com/articles/s41598-024-73405-9" target="_blank">Using ARIMA and ETS models for forecasting water level changes for sustainable environmental management</a>, Scientific Reports 14, 22444 (2024)</td></tr>
