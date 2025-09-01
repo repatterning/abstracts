@@ -21,12 +21,14 @@
 	    <li><a href="https://www.tensorflow.org/probability/examples/Structural_Time_Series_Modeling_Case_Studies_Atmospheric_CO2_and_Electricity_Demand" target="_blank">Structural Time Series Modeling Case Studies: Atmospheric CO2 and Electricity Demand</a></li>
       <li><a href="https://projecteuclid.org/journals/annals-of-applied-statistics/volume-9/issue-1/Inferring-causal-impact-using-Bayesian-structural-time-series-models/10.1214/14-AOAS788.full" target="_blank">Inferring causal impact using Bayesian structural time-series models</a></li>
     </ul></td></tr>  
-  <tr><td><a href="https://link.springer.com/article/10.1007/s10994-021-05946-3" target="_blank">Aleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods</a></td></tr>
-  <tr><td><a href="https://otexts.com/fpp2/stationarity.html" target="_blank">Forecasting Principles & Practice: Stationarity</a></td></tr>
+  <tr><td>Concepts<ul>
+    <li><a href="https://link.springer.com/article/10.1007/s10994-021-05946-3" target="_blank">Aleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods</a></li>
+    <li><a href="https://otexts.com/fpp2/stationarity.html" target="_blank">Stationarity</a></li>
+    <li><a href="https://www.bridgetext.com/log-transforming-time-series-data-in-r" target="_blank">Natural Logarithm Transformations</a></li>
+    </ul></td></tr>
   <tr><td><a href="https://www.nature.com/articles/s41598-024-73405-9" target="_blank">Using ARIMA and ETS models for forecasting water level changes for sustainable environmental management</a>, Scientific Reports 14, 22444 (2024)</td></tr>
   <tr><td><a href="https://otexts.com/fpp3/ets-forecasting.html">Forecasting with ETS Models</a></td></tr>
   <tr><td><a href="https://otexts.com/fpp3/arima-ets.html">ARIMA vs ETS</a></td></tr>
-  <tr><td><a href="https://www.bridgetext.com/log-transforming-time-series-data-in-r" target="_blank">Natural Logarithm Transformations</a></td></tr>
 </table>
 
 
