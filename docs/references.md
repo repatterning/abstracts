@@ -14,7 +14,6 @@
 	    <li><a href="https://www.tensorflow.org/probability/examples/Structural_Time_Series_Modeling_Case_Studies_Atmospheric_CO2_and_Electricity_Demand" target="_blank">Structural Time Series Modeling Case Studies: Atmospheric CO2 and Electricity Demand</a></li>
       <li><a href="https://projecteuclid.org/journals/annals-of-applied-statistics/volume-9/issue-1/Inferring-causal-impact-using-Bayesian-structural-time-series-models/10.1214/14-AOAS788.full" target="_blank">Inferring causal impact using Bayesian structural time-series models</a></li>
     </ul></td></tr>
-  <tr><td></td></tr>
   <tr><td><a href="https://direct.mit.edu/books/oa-monograph-pdf/2514321/book_9780262256834.pdf">Gaussian Processes for Machine Learning</a></td></tr>
   <tr><td><a href="https://link.springer.com/article/10.1007/s10994-021-05946-3" target="_blank">Aleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods</a></td></tr>
   <tr><td><a href="https://otexts.com/fpp2/stationarity.html" target="_blank">Forecasting Principles & Practice: Stationarity</a></td></tr>
