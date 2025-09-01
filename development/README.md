@@ -101,6 +101,9 @@ IDEA** set up involves connecting to a machine's Docker [daemon](https://www.jet
 
 ## References
 
+* [PyMC](https://www.pymc.io/welcome.html) now includes [experimental support for Linear, Gaussian state space time series models](https://www.linkedin.com/feed/update/urn:li:activity:7107058010304262145)
+* [`pymc-experimental` now includes state spaces models](https://discourse.pymc.io/t/pymc-experimental-now-includes-state-spaces-models/12773)
+
 ### DASK & Amazon EMR (Elastic MapReduce)
 
 [EMR Pricing](https://aws.amazon.com/emr/pricing/)
