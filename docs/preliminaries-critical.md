@@ -19,8 +19,8 @@ Hence, the need for a river intelligence hub that hosts (a) standard river-level
 **The potential product's outcome expectations** &Rarr;
 
 * Ahead-of, During storms:
-    1. Warning activated continuous forecasts w.r.t gauges that fall within a warning area; every 15 or 30 minutes.
-    2. Continuous publications of rates-of-change of river levels; every 15 minutes
+    1. Forecasts w.r.t gauges that fall within a warning area.
+    2. Continuous publications of rates-of-change of river levels; every 120 minutes
 
 * Daily:
     1. Raw river levels
@@ -34,8 +34,7 @@ Hence, the need for a river intelligence hub that hosts (a) standard river-level
 **Underlying aims** &Rarr;
 
 * During storms:
-    1. A model whose re-training & forecasting time is $< 4$ minutes.
-    2. Point forecasts errors within $\pm 0.025%$ 
+    1. Point forecasts errors within $\pm 0.025%$ 
 
 <br>
 <br>
