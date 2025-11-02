@@ -20,6 +20,10 @@
     overflow-wrap: break-word;
 }
 
+.md-tabs__list {
+    height: 85px;
+}
+
 div.mxTooltip {
     background: #ffffff;
     border: 0;
