@@ -25,8 +25,28 @@
     color: #696cff;
 }
 
+.md-typeset a {
+    color: #696cff;
+}
+
+.md-nav__item .md-nav__link--active {
+    color: #696cff;
+}
+
+.md-header {
+    padding-bottom: 10px;
+}
+
+.md-grid {
+    margin-top: 5px;
+}
+
+.md-tabs {
+    color: #696cff;
+}
+
 .md-tabs__list {
-    height: 85px;
+    height: 65px;
 }
 
 div.mxTooltip {
