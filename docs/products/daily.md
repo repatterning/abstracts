@@ -2,7 +2,7 @@
 
 Outwith a storm.
 
-<img src="../assets/images/sketches/daily.png" alt="Daily">
+![DAILY](../assets/images/sketches/daily.png){align=left}
 
 <br>
 <br>
