@@ -108,7 +108,7 @@ nav:
       - preliminaries-critical.md
   - GITHUB, CONTINUOUS INTEGRATION<br>& DELIVERY:
       - products/daily.md
-      - products/assets.md
+      - products/warning.md
   - DATA & ALGORITHMS:
       - mathematics/data.md
       - mathematics/models.md
