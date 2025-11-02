@@ -104,12 +104,13 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Preliminaries:
+  - BACKGROUND:
       - preliminaries-critical.md
-      - preliminaries-assets.md
-  - Analytics & Models:
+  - GITHUB, CONTINUOUS INTEGRATION<br>& DELIVERY:
+      - products/assets.md
+  - DATA & ALGORITHMS:
       - mathematics/data.md
       - mathematics/models.md
       - mathematics/risks.md
       - mathematics/drift.md
-  - References: references.md
+  - REFERENCES: references.md
