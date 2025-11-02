@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2025-11-02T17:34:47.343Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="UUZLkgA2RmZ7Xkplr_xv" version="22.1.2" type="device">
+<mxfile host="Electron" modified="2025-11-02T17:44:46.195Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="oRb_VnMOVSo6R_M3GbQU" version="22.1.2" type="device">
   <diagram name="continuous" id="rd5ZhHwPL6A-ZSGQWXe4">
-    <mxGraphModel dx="1098" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="1" shadow="0">
+    <mxGraphModel dx="850" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,6 +33,12 @@
         </mxCell>
         <mxCell id="n3SQmAx1hQbib12jjW2h-12" value="Hosts the calculations, and structuring algorithms, that (a) calculae the continuous river level change percentages per gauge point, (b) allows teams to compare percentage changes within a catchment.&amp;nbsp; Graphs \(\longrightarrow\) Contrasts page. [from: Amazon storage, to: Amazon Storage]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Caveat Brush;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat%2BBrush;labelPosition=center;verticalLabelPosition=middle;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="299" y="620" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n3SQmAx1hQbib12jjW2h-13" value="quantiles" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecs;rotation=0;fontFamily=Asap;fontSource=https://fonts.googleapis.com/css?family=Asap;labelPosition=right;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="690" y="540" width="39" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="n3SQmAx1hQbib12jjW2h-14" value="Per gauge measures, it calculates a variety of quantile values vis-à-vis each day&#39;s measurements.&amp;nbsp; Graphs \(\longrightarrow\) Extrema page. [from: Amazon storage, to: Amazon Storage]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Caveat Brush;fontSource=https://fonts.googleapis.com/css?family=Caveat+Brush;labelPosition=center;verticalLabelPosition=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="680" y="590" width="270" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
