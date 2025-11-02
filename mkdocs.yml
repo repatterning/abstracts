@@ -41,8 +41,8 @@ theme:
     admonition:
       example: material/gate-alert
   font:
-    text: Quantico
-    code: Iceland
+    text: Noto Sans
+    code: Quantico
 
 
 # Watch
