@@ -1,23 +1,32 @@
-<mxfile host="Electron" modified="2025-11-02T17:17:48.605Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="_NrjN8ljbDfDxk7UNYqe" version="22.1.2" type="device">
+<mxfile host="Electron" modified="2025-11-02T17:26:53.777Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="Cxyjli3kaX68kHgiSC06" version="22.1.2" type="device">
   <diagram name="continuous" id="rd5ZhHwPL6A-ZSGQWXe4">
-    <mxGraphModel dx="1098" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
+    <mxGraphModel dx="1098" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="n3SQmAx1hQbib12jjW2h-1" value="initial" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecs;rotation=0;fontFamily=Asap;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAsap;labelPosition=right;spacingLeft=5;" vertex="1" parent="1">
           <mxGeometry x="530" y="260" width="39" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="n3SQmAx1hQbib12jjW2h-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="542" y="210" width="15" height="15" as="geometry" />
+        <mxCell id="n3SQmAx1hQbib12jjW2h-2" value="frequency: daily" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;rotation=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontFamily=Caveat Brush;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat%2BBrush;" vertex="1" parent="1">
+          <mxGeometry x="542" y="179" width="15" height="15" as="geometry" />
         </mxCell>
         <mxCell id="n3SQmAx1hQbib12jjW2h-3" value="structures" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecs;rotation=0;fontFamily=Asap;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAsap;labelPosition=right;spacingLeft=5;" vertex="1" parent="1">
           <mxGeometry x="530" y="330" width="39" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="n3SQmAx1hQbib12jjW2h-4" value="Acquires of the latest raw river measures.&amp;nbsp; [frequency: daily, from: scottish environment protection agency]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Caveat Brush;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat%2BBrush;labelPosition=center;verticalLabelPosition=middle;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="n3SQmAx1hQbib12jjW2h-4" value="Acquires of the latest raw river measures.&amp;nbsp; [from: scottish environment protection agency, to: Amazon storage]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Caveat Brush;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat%2BBrush;labelPosition=center;verticalLabelPosition=middle;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="662" y="210" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="n3SQmAx1hQbib12jjW2h-5" value="Structures the raw data; it ensures (a) missing time points are present, albeit measure values are set to NaN, (b) removes duplicate instances, (c) per gauge, it provides 15-minute &amp;amp; 1-hour granularity data." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Caveat Brush;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat%2BBrush;labelPosition=center;verticalLabelPosition=middle;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="n3SQmAx1hQbib12jjW2h-5" value="Structures the raw data; it ensures (a) missing time points are present, albeit measure values are set to NaN, (b) removes duplicate instances, (c) per gauge, it provides 15-minute &amp;amp; 1-hour granularity data. [from: Amazon storage, to Amazon Storage]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Caveat Brush;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat%2BBrush;labelPosition=center;verticalLabelPosition=middle;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="720" y="314.5" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n3SQmAx1hQbib12jjW2h-6" value="measures" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecs;rotation=0;fontFamily=Asap;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAsap;labelPosition=right;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="380" y="460" width="39" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="n3SQmAx1hQbib12jjW2h-7" value="Provides the data points &amp;amp; structures of the raw measures graphs \(\longrightarrow\) the Measures: Split &amp;amp; Measures: Continuous pages. [from: Amazon storage, to: Amazon Storage]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Caveat Brush;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat%2BBrush;labelPosition=center;verticalLabelPosition=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="250" y="384.5" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n3SQmAx1hQbib12jjW2h-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Asap;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAsap;" edge="1" parent="1" source="n3SQmAx1hQbib12jjW2h-2" target="n3SQmAx1hQbib12jjW2h-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
