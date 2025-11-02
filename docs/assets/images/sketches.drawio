@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2025-11-02T20:40:35.968Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="g86A1KMcB31JZSCs9v4m" version="22.1.2" type="device" pages="2">
+<mxfile host="Electron" modified="2025-11-02T20:51:27.531Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="-cgIAYs4MJeObgWnmM8I" version="22.1.2" type="device" pages="2">
   <diagram name="daily" id="rd5ZhHwPL6A-ZSGQWXe4">
-    <mxGraphModel dx="1434" dy="1004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="1" shadow="0">
+    <mxGraphModel dx="1232" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
           <mxGeometry x="125" y="533" width="174.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="n3SQmAx1hQbib12jjW2h-7" value="Provides the data points &amp;amp; structures of the raw measures graphs \(\longrightarrow\) the Measures: Split &amp;amp; Measures: Continuous pages. [from: Amazon storage, to: Amazon Storage]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Caveat Brush;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat%2BBrush;labelPosition=center;verticalLabelPosition=middle;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="558" y="110" width="170" height="50" as="geometry" />
+          <mxGeometry x="558" y="90" width="142" height="79" as="geometry" />
         </mxCell>
         <mxCell id="n3SQmAx1hQbib12jjW2h-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Caveat Brush;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat%2BBrush;endArrow=blockThin;endFill=1;fontSize=11;" edge="1" parent="1" source="n3SQmAx1hQbib12jjW2h-2" target="n3SQmAx1hQbib12jjW2h-34">
           <mxGeometry relative="1" as="geometry">
@@ -27,13 +27,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n3SQmAx1hQbib12jjW2h-12" value="Hosts the calculations, and structuring algorithms, that (a) calculae the continuous river level change percentages per gauge point, (b) allows teams to compare percentage changes within a catchment.&amp;nbsp; Graphs \(\longrightarrow\) Contrasts page. [from: Amazon storage, to: Amazon Storage]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Caveat Brush;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat%2BBrush;labelPosition=center;verticalLabelPosition=middle;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="537.75" y="269.25" width="210.5" height="90.75" as="geometry" />
+          <mxGeometry x="576.75" y="228.25" width="133.25" height="124.75" as="geometry" />
         </mxCell>
         <mxCell id="n3SQmAx1hQbib12jjW2h-14" value="Per gauge measures, it calculates a variety of quantile values vis-à-vis each day&#39;s measurements.&amp;nbsp; Graphs \(\longrightarrow\) Extrema page. [from: Amazon storage, to: Amazon Storage]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Caveat Brush;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat%2BBrush;labelPosition=center;verticalLabelPosition=middle;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="540" y="450" width="140" height="69" as="geometry" />
+          <mxGeometry x="538" y="409" width="140" height="69" as="geometry" />
         </mxCell>
         <mxCell id="n3SQmAx1hQbib12jjW2h-16" value="Per gauge measures, it calculates the weighted rates of change of a river level within the vicinity of a gauge.&amp;nbsp; Graphs \(\longrightarrow\) Risks: Rates of Change page. [from: Amazon storage, to: Amazon Storage]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Caveat Brush;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat%2BBrush;labelPosition=center;verticalLabelPosition=middle;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="564" y="609" width="164" height="70" as="geometry" />
+          <mxGeometry x="564" y="590" width="126" height="89" as="geometry" />
         </mxCell>
         <mxCell id="n3SQmAx1hQbib12jjW2h-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=blockThin;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Caveat Brush;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat%2BBrush;fontSize=11;" edge="1" parent="1" source="n3SQmAx1hQbib12jjW2h-34" target="F6haBJeiEQ73M7WKxxGP-1">
           <mxGeometry relative="1" as="geometry">
@@ -61,6 +61,9 @@
         </mxCell>
         <mxCell id="F6haBJeiEQ73M7WKxxGP-2" value="measures" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#000000;shape=mxgraph.azure.git_repository;fontFamily=Caveat Brush;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat%2BBrush;rotation=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="468" y="189" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F6haBJeiEQ73M7WKxxGP-19" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;curved=1;endArrow=none;endFill=0;strokeWidth=0.5;" edge="1" parent="1" source="F6haBJeiEQ73M7WKxxGP-3" target="n3SQmAx1hQbib12jjW2h-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="F6haBJeiEQ73M7WKxxGP-3" value="contrasts" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#000000;shape=mxgraph.azure.git_repository;fontFamily=Caveat Brush;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat%2BBrush;rotation=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="468" y="309" width="30" height="30" as="geometry" />
