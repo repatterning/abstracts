@@ -20,6 +20,10 @@
     overflow-wrap: break-word;
 }
 
+.md-typeset h1 {
+    font-variant: small-caps;
+}
+
 .md-tabs__list {
     height: 85px;
 }
