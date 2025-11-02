@@ -6,7 +6,7 @@ The diagram outlines the orchestration that underpins the automatic daily update
 
 <!--suppress HtmlUnknownAttribute -->
 <figure markdown="span">
-  ![DAILY](../assets/images/sketches/daily.png){align=left}
+  ![DAILY](../assets/images/sketches/daily-continuous.png){align=left}
   <figcaption>The components after structure can be run in parallel.</figcaption>
 </figure>
 
