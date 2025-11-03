@@ -35,14 +35,14 @@ theme:
     - search.suggest
     - toc.follow
   palette:
-    primary: orange
+    primary: white
     accent: amber
   icon:
     admonition:
       example: material/gate-alert
   font:
-    text: Quantico
-    code: Iceland
+    text: Noto Sans
+    code: Quantico
 
 
 # Watch
@@ -104,12 +104,15 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Preliminaries:
+  - BACKGROUND:
       - preliminaries-critical.md
-      - preliminaries-assets.md
-  - Analytics & Models:
+  - GITHUB, CONTINUOUS INTEGRATION<br>& DELIVERY:
+      - products/daily.md
+      - products/warning.md
+      - products/upcoming.md
+  - DATA & ALGORITHMS:
       - mathematics/data.md
       - mathematics/models.md
       - mathematics/risks.md
       - mathematics/drift.md
-  - References: references.md
+  - REFERENCES: references.md
