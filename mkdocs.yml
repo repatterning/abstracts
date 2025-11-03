@@ -109,6 +109,7 @@ nav:
   - GITHUB, CONTINUOUS INTEGRATION<br>& DELIVERY:
       - products/daily.md
       - products/warning.md
+      - products/upcoming.md
   - DATA & ALGORITHMS:
       - mathematics/data.md
       - mathematics/models.md
