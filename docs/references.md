@@ -2,7 +2,7 @@
 
 ## Modelling & Analysis
 
-<table style="width: 85%; margin-left: 35px; vertical-align: top; font-size: .7rem;">
+<table style="width: 85%; margin-left: 35px; vertical-align: top;">
   <colgroup>
       <col span="1" style="width: 43.5%;">
   </colgroup>
@@ -32,6 +32,9 @@
     <li><a href="https://otexts.com/fpp3/arima-ets.html">ARIMA vs ETS</a></li>
     </ul></td></tr>
 </table>
+
+
+<br>
 
 
 ## Programming, Development
@@ -77,7 +80,25 @@
 </table>
 
 <br>
-<br>
+
+## Exploratory Analysis Methods
+
+* [Partial Auto-correlation Plot](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4463.htm).  [Auto-correlation Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/autocopl.htm): For investigating questions such as[^auto-correlation]
+  1. _Is an observation related to an adjacent observation?_
+  2. _Is the observed time series white noise?_
+  3. _Is the observed time series sinusoidal?_
+  4. _Is the observed time series autoregressive?_
+
+* [Statistical forecasting: notes on regression and time series analysis](https://people.duke.edu/~rnau/411home.htm)
+  1. [Identifying the order of differencing in an ARIMA model](https://people.duke.edu/~rnau/411arim2.htm)
+  2. [Identifying the numbers of AR or MA terms in an ARIMA model](https://people.duke.edu/~rnau/411arim3.htm)
+
+* De-trending, etc.
+  1. [Stationarity, De-trending, Tests](https://www.statsmodels.org/dev/examples/notebooks/generated/stationarity_detrending_adf_kpss.html)
+  2. [Robust de-trending, re-referencing, outlier detection, and inpainting for multichannel data](https://pmc.ncbi.nlm.nih.gov/articles/PMC5915520/)
+
+* [Model Identification for Southern Oscillations Data](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4461.htm)
+
 
 <br>
 <br>
@@ -87,3 +108,12 @@
 
 <br>
 <br>
+
+<br>
+<br>
+
+[^auto-correlation]: From NIST [Auto-correlation Plot](https://www.itl.nist.gov/div898/handbook/eda/section3/autocopl.htm)
+
+<br>
+<br>
+
