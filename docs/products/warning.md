@@ -2,11 +2,11 @@
 
 This page outlines the orchestrations of the automatic updates that occur during a weather warning period.
 
-## Analytics
+## Metrics
 
 <!--suppress HtmlUnknownAttribute -->
 <figure markdown="span">
-  ![ANALYTICS](../assets/images/sketches/warning-continuous.png){align=left}
+  ![METRICS](../assets/images/sketches/warning-continuous.png){align=left}
   <figcaption>At present, every 2 hours.</figcaption>
 </figure>
 
