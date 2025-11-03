@@ -9,7 +9,9 @@ The problem and why is it important to solve
 > * During storms the team neither has access to real-time forecasts **nor** supplementary measures/metrics.
 > * Outwith storms the team does not have access to river levels intelligence, such intelligence enables hydrologists to identify problems, study patterns, etc., in-time.
 
-Hence, the need for a river intelligence hub that hosts (a) standard river-levels metrics, initially raw river level measures, daily extrema & medians, drift, and (b) river level forecasts and rates-of-change of river levels.
+<br>
+
+Hence, an illustrative development of a plausible river levels intelligence hub, that hosts measures, metrics, actionable insights, predictions, etc., and exists within a continuous integration & delivery setting.
 
 <br>
 <br>
