@@ -3,6 +3,15 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/themes/prism.min.css");
 
+
+.md-nav, .md-typeset {
+    font-size: 0.65rem;
+}
+
+.md-typeset pre {
+    font-size: 0.6rem;
+}
+
 .md-typeset code {
     background-color: #f5f5f5;
     border-radius:.1rem;
@@ -15,7 +24,6 @@
 
 .md-typeset {
     color-adjust: exact;
-    font-size: .75rem;
     line-height: 1.6;
     overflow-wrap: break-word;
 }
